@@ -1,0 +1,8 @@
+🔥 CPU Usage too high!
+
+Instance: {{ index .Labels "instance" }}
+Usage: {{ printf "%.1f" (index .Values "Value") }}%
+
+Since: {{ .StartsAt }}
+
+[Silence]({{ .SilenceURL }}) | [Source]({{ .GeneratorURL }})

@@ -1,6 +1,6 @@
-module github.com/k3env/notification-webhook
+module github.com/k3env/grafana-webhook
 
-go 1.22.4
+go 1.23.2
 
 require (
 	github.com/rs/zerolog v1.33.0

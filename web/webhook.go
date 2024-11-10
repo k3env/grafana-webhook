@@ -2,8 +2,8 @@ package web
 
 import (
 	"encoding/json"
-	"github.com/k3env/notification-webhook/model"
-	"github.com/k3env/notification-webhook/tg"
+	"github.com/k3env/grafana-webhook/model"
+	"github.com/k3env/grafana-webhook/tg"
 	"github.com/rs/zerolog/log"
 	"io"
 	"net/http"

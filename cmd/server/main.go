@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	"github.com/k3env/notification-webhook/config"
-	"github.com/k3env/notification-webhook/templates"
-	"github.com/k3env/notification-webhook/tg"
-	"github.com/k3env/notification-webhook/web"
+	"github.com/k3env/grafana-webhook/config"
+	"github.com/k3env/grafana-webhook/templates"
+	"github.com/k3env/grafana-webhook/tg"
+	"github.com/k3env/grafana-webhook/web"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"net/http"
